@@ -1494,9 +1494,10 @@ section,
   background-color: var(--surface-color);
   -webkit-mask: url("../img/team-shape.svg") no-repeat center bottom;
   mask: url("../img/team-shape.svg") no-repeat center bottom;
-  -webkit-mask-size: contain;
-  mask-size: contain;
+  -webkit-mask-size: contain; 
+  mask-size: contain; 
   z-index: 1;
+  opacity: 0
 }
 
 .team .team-member .social {
